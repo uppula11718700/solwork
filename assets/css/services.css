@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.text-robo
+{
+    font-family: 'Roboto', sans-serif;
+}
+.heading-color
+{
+    color: #0C1230 !important;
+}
+.div-card-1
+{
+    max-width: 15rem;
+    margin-top: 3rem;
+    background-color: #A3DBCA;
+}
+.div-card-2
+{
+    padding-top: 2.7rem;
+    max-width: 17rem;
+    background-color: #F7DC87;
+}
+.div-card-3
+{
+    max-width: 15rem;
+    margin-top: 3rem;
+    background-color: #EED9E0;
+}
+.content
+{
+    line-height: 2rem;
+}
+.services-heading
+{
+    background-color: rgb(117, 177, 245);
+}
+.services-headig-text
+{
+    color: rgb(46, 56, 107);
+}
+.services-card-image
+{
+    max-width: 6rem;
+}
+.services-card
+{
+    margin-left: 4rem !important;
+    transition: ease-in-out 0.7s;
+}
+.services-card:hover
+{
+    background-color: rgb(26, 209, 241);
+    transition: ease-in-out 0.4s;
+}

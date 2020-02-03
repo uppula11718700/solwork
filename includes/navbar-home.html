@@ -1,0 +1,53 @@
+<nav class="navbar fixed-top m-0 bg-navbar">
+    <a href="/"><img src="/assets/images/logo.jpg" class="main-logo" alt=""></a>
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <div class="ml-auto d-none d-md-block">
+        <a href="/index.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-open text-capitalize">Home</button></a>
+        <a href="/about.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-open text-capitalize">About</button></a>
+        <a href="/features.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-open text-capitalize">Features</button></a>
+        <a href="/services.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-open text-capitalize">Services</button></a>
+        <!-- <a href="/" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-open text-capitalize">Solutions</button></a> -->
+        <a href="/contact.html" class="text-dark"><button class="mdl-button mdl-js-button mdl-js-ripple-effect text-open text-capitalize">Support</button></a>
+
+    </div>
+</nav>
+
+<style>
+.main-logo
+{
+    max-width: 5rem;
+}
+.no-rounded
+{
+    border-radius: 0px ;
+}
+.no-rounded:focus
+{
+    box-shadow: none ; 
+}
+@media (min-width: 576px)
+{
+.form-inline .form-control {
+    width: 25rem;
+    vertical-align: middle;
+}
+}
+.fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+  }
+</style>
+<script>
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+// load page top
+$(document).ready(function(){
+  $(this).scrollTop(0);
+});
+</script>

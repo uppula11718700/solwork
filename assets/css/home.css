@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.text-robo
+{
+    font-family: 'Roboto', sans-serif;
+}
+/* .main-column */
+.heading-color
+{
+    text-decoration-color: #0C1230 !important;
+}
+.main-row
+{
+    background-image: url('/assets/images/bg-home.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.column-main
+{
+    /* margin-left: 6rem; 
+    margin-top: 6rem; */
+    background-color: rgba(143, 157, 212, 0.13);
+}
+.main-column-button
+{
+    background-color: #0C1230;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.main-column-icon-row
+{
+    padding-top: 3rem;
+}
+.main-column-icons
+{
+    max-width: 2.2rem;
+    margin-right: 3rem;
+}
+.presentation-icons
+{
+    max-width: 7rem;
+}
+.card-presentation
+{
+    max-width: 20rem;
+    margin: 3rem !important;
+    transition: ease-in-out 0.7s;
+}
+.card-presentation:hover
+{
+    margin-top: 0rem !important;
+    padding-top: 3rem!important;
+    box-shadow: 2px 2px 4px #000000;
+    background-color: rgb(42, 171, 194);
+    transition: ease-in-out 0.7s;
+}
+.row-bulk
+{
+    background-color: #c0c0c048;
+}
+.text-bulk
+{
+    color: rgb(11, 40, 184) !important;
+}
+.btn-color
+{
+    background-color: #0C1230;
+}
+.btn-color:hover
+{
+    background-color: #497ee0;
+    transition: ease-in-out 0.4s;
+}
+.bulk-icon
+{
+    max-width: 20rem;
+}
+@media only screen and (max-width: 600px) {
+    .main-text
+    {
+        font-size: 2rem !important;
+    }
+    .main-row
+    {
+        background-image: url('/assets/images/bg-home-mobile.png');
+        background-size: 100% 100%;
+    }
+  }
+
+.no-focus:focus{
+    border-color: #CCC;
+    outline:0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.material-icons.md-18 { font-size: 18px; vertical-align:bottom; }
+.material-icons.md-24 { font-size: 24px; vertical-align:bottom; }
+.material-icons.md-36 { font-size: 36px; vertical-align:bottom; }
+.material-icons.md-48 { font-size: 48px; vertical-align:bottom; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }

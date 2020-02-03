@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.text-robo
+{
+    font-family: 'Roboto', sans-serif;
+}
+.main
+{
+    background-image: url('/assets/images/map.jpg');
+    background-size: 100%;
+}
+.contact-heading
+{
+    color: rgb(133, 133, 133) !important;
+}
+.contact-bg
+{
+    background-color: rgba(105, 179, 228, 0.932);
+}
+.contact-icons-1
+{
+    color: #CCC !important;
+    text-decoration-color: #CCC !important;
+    transition: ease-in-out 0.4s;
+}
+.contact-icons-2
+{
+    color: #CCC !important;
+    text-decoration-color: #CCC !important;
+    transition: ease-in-out 0.4s;
+}
+.contact-icons-3
+{
+    color: #CCC !important;
+    text-decoration-color: #CCC !important;
+    transition: ease-in-out 0.4s;
+}
+.text-phone:hover .contact-icons-1
+{
+    color: black !important;
+    text-decoration-color: black !important;
+    transition: ease-in-out 0.4s;
+}
+.text-mail:hover .contact-icons-2
+{
+    color: black !important;
+    text-decoration-color: black !important;
+    transition: ease-in-out 0.4s;
+}
+.text-city:hover .contact-icons-3
+{
+    color: black !important;
+    text-decoration-color: black !important;
+    transition: ease-in-out 0.4s;
+}
+.social-icons
+{
+    max-width: 2rem;
+    opacity: 0.5;
+    transition: ease-in-out 0.3s;
+}
+.social-icons:hover
+{
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+}
+.no-focus:focus{
+    border-color: #CCC;
+    outline:0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.material-icons.md-18 { font-size: 18px; vertical-align:bottom; }
+.material-icons.md-24 { font-size: 24px; vertical-align:bottom; }
+.material-icons.md-36 { font-size: 36px; vertical-align:bottom; }
+.material-icons.md-48 { font-size: 48px; vertical-align:bottom; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }

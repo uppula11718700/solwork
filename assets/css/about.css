@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.text-robo
+{
+    font-family: 'Roboto', sans-serif;
+}
+.heading-color
+{
+    color: rgb(168, 146, 17) !important;
+}
+.content
+{
+    line-height: 2rem;
+}
+.team-members
+{
+    max-width: 4rem;
+}
+.team-members:hover
+{
+    background-color: rgba(196, 86, 86, 0.438) !important;
+}
+.about-img
+{
+    max-width: 100%;
+}
